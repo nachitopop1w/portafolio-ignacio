@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ignacio | Portafolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Ignacio<span class="accent">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-contact ms-lg-2" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- INICIO / HERO -->
+  <header id="inicio" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <p class="eyebrow">4° medio · Estudiante y emprendedor</p>
+          <h1 class="hero-title">Hola, soy Ignacio.</h1>
+          <p class="hero-text">
+            Estoy terminando 4° medio y aprendiendo a construir cosas: desde sitios web
+            hasta un emprendimiento propio de mantención de computadores. Me gusta
+            trabajar en equipo y resolver problemas de forma práctica.
+          </p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#proyectos" class="btn btn-primary-custom">Ver mis proyectos</a>
+            <a href="#contacto" class="btn btn-outline-custom">Hablemos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+        <div class="col-lg-5">
+          <p class="section-label">Sobre mí</p>
+          <h2 class="section-title">Un poco de mi historia</h2>
+        </div>
+        <div class="col-lg-7">
+          <p class="section-text">
+            Me llamo Ignacio y estoy en 4° año medio. Me interesa la tecnología y
+            actualmente tengo un pequeño emprendimiento de mantención de computadores,
+            donde reviso, limpio y optimizo equipos para clientes cercanos a mi comunidad.
+          </p>
+          <p class="section-text">
+            Más allá de eso, me considero una persona que trabaja bien en equipo:
+            me gusta escuchar ideas, organizar tareas y aportar soluciones concretas
+            cuando algo no está funcionando. Este portafolio es parte de mi proceso
+            de aprendizaje en desarrollo web.
+          </p>
+          <div class="row mt-4 g-3">
+            <div class="col-6 col-sm-4">
+              <div class="stat">
+                <span class="stat-num">4°</span>
+                <span class="stat-label">Año medio</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4">
+              <div class="stat">
+                <span class="stat-num">1</span>
+                <span class="stat-label">Emprendimiento activo</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4">
+              <div class="stat">
+                <span class="stat-num">+</span>
+                <span class="stat-label">Trabajo en equipo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section section-alt">
+    <div class="container">
+      <p class="section-label">Mis proyectos</p>
+      <h2 class="section-title mb-5">Cosas en las que he trabajado</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-icon"><i class="bi bi-cpu"></i></div>
+            <h3>Mantención de PC</h3>
+            <p>
+              Emprendimiento propio de limpieza, diagnóstico y optimización de
+              computadores para clientes particulares.
+            </p>
+            <span class="tag">Emprendimiento</span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-icon"><i class="bi bi-window"></i></div>
+            <h3>Portafolio Web</h3>
+            <p>
+              Este mismo sitio, construido con HTML, CSS, JavaScript y Bootstrap,
+              y publicado con GitHub Pages como proyecto de evaluación.
+            </p>
+            <span class="tag">HTML · CSS · JS</span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card project-card-empty">
+            <div class="project-icon"><i class="bi bi-plus-lg"></i></div>
+            <h3>Próximo proyecto</h3>
+            <p>
+              Espacio reservado para el próximo proyecto que agregue a este
+              portafolio a medida que siga aprendiendo.
+            </p>
+            <span class="tag">Próximamente</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades" class="section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <p class="section-label">Mis habilidades</p>
+          <h2 class="section-title">En lo que soy bueno</h2>
+          <p class="section-text">
+            Combino habilidades técnicas que estoy desarrollando con habilidades
+            blandas que uso todos los días, tanto en el colegio como en mi
+            emprendimiento.
+          </p>
+        </div>
+        <div class="col-lg-7">
+          <div class="skill-row">
+            <div class="skill-head">
+              <span>Trabajo en equipo</span><span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head">
+              <span>Mantención y diagnóstico de hardware</span><span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head">
+              <span>HTML &amp; CSS</span><span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head">
+              <span>JavaScript</span><span class="skill-pct">55%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head">
+              <span>Atención al cliente</span><span class="skill-pct">88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTUDIOS -->
+  <section id="estudios" class="section section-alt">
+    <div class="container">
+      <p class="section-label">Mis estudios</p>
+      <h2 class="section-title mb-5">Formación</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Actualidad</span>
+            <h3>4° Año Medio</h3>
+            <p>Cursando el último año de enseñanza media, con foco en desarrollo de proyectos y evaluación por portafolio.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">En paralelo</span>
+            <h3>Aprendizaje autodidacta en tecnología</h3>
+            <p>Desarrollo de habilidades en mantención de computadores y primeros pasos en programación web (HTML, CSS y JavaScript).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <p class="section-label">Contacto</p>
+          <h2 class="section-title">Conversemos</h2>
+          <p class="section-text">
+            ¿Tienes un equipo que necesita mantención, o quieres contactarme por
+            este portafolio? Escríbeme por cualquiera de estos medios.
+          </p>
+
+          <div class="contact-item">
+            <i class="bi bi-whatsapp"></i>
+            <div>
+              <span class="contact-label">WhatsApp / Teléfono</span>
+              <a href="https://wa.me/56945423648" target="_blank">+56 9 4542 3648</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-people"></i>
+            <div>
+              <span class="contact-label">Forma de trabajo</span>
+              <span>Me adapto bien a trabajar en equipo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="contact-form" id="contactForm">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Tu nombre" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control" placeholder="tu@correo.com" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Mensaje</label>
+                <textarea class="form-control" rows="4" placeholder="Cuéntame en qué te puedo ayudar" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary-custom">Enviar mensaje</button>
+                <span class="form-note" id="formNote"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+      <span>© <span id="year"></span> Ignacio. Todos los derechos reservados.</span>
+      <span class="footer-note">Hecho con HTML, CSS, JS y Bootstrap</span>
+    </div>
+  </footer>
+
+  <a href="#inicio" class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
